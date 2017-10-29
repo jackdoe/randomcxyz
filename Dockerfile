@@ -5,4 +5,4 @@ EXPOSE 4569
 COPY main.go /app/main.go
 COPY static/ /app/static
 
-CMD go run /app/main.go
+CMD cd /app && go run /app/main.go
