@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>random array.c</title>
+  <style>
+
+    .container {
+      text-align: center;
+    }
+
+    .container pre {
+      display: inline-block;
+      text-align: left;
+    }
+
+    input {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class=container>
+     <pre>
+Random integer generator, that procuces handy c array, ready for copy & paste.
+Example query to <a href="/generate?n=12">https://randomc.xyz/generate?n=12</a>, produces:
+
+
+unsigned int randomcxyz[] = {
+	0x41f27cc6,0x68255aaf,0x1b6cffa2,0x30b95ff1,
+	0x28b62158,0x3c04951a,0x243a768b,0x25845c95,
+	0x56ec3f25,0x1bf98be2,0x1a02070f,0x2e3108da
+};
+
+
+<form method="GET" action="/generate">
+Number of random integers: <input type="text" name="n" value="4096"> <input type=submit name="generate" value="Generate"> <input type="radio" id="plain" name="octet" value="plain" checked> <label for="plain">text/plain</label> <input type="radio" id="stream" name="octet" value="stream"> <label for="stream">octet/stream</label>
+</form>
+
+     </pre>
+  </div>
+<a href="https://github.com/jackdoe/randomcxyz"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+</body>
+</html>
+
